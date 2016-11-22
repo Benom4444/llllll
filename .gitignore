@@ -15,4 +15,54 @@ wp-content/plugins/hello.php
 /readme.html
 /sitemap.xml
 /sitemap.xml.gz
+<html>
+<title>Оператор return</title>
+
+<head>
+
+<script type="text/javascript">
+
+function concatenate(first, last)
+
+{
+
+var full;
+
+full = first + last;
+
+return full;
+
+}
+
+
+function secondFunction()
+
+{
+
+var result;
+
+result = concatenate('Вася', '+ Маша'); console.log (result );
+
+}
+
+</script>
+
+
+</head>
+ 
+<body>
+
+<p>Нажмите следующую кнопку, чтобы вызвать функцию</p>
+
+
+<form>
+
+<input type="button" onclick="secondFunction()" value="Вызов
+функции">
+
+</form>
+
+</body>
+
+</html>
 
